@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.individual_project.HelloController">
+   <children>
+      <Label layoutX="439.0" layoutY="56.0" text="Werewolf" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="56.0">
+         <font>
+            <Font name="Matura MT Script Capitals" size="87.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Entered_Username" layoutX="508.0" layoutY="322.0" prefHeight="25.0" prefWidth="366.0" />
+      <Label layoutX="408.0" layoutY="314.0" text="Username:" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="Entered_Password" layoutX="508.0" layoutY="406.0" prefHeight="25.0" prefWidth="366.0" />
+      <Label layoutX="412.0" layoutY="398.0" text="Password:" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="985.0" layoutY="535.0" text="Don't have an account?" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="985.0" layoutY="570.0" text="Create an account to" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Go_To_Create_Account_Button" layoutX="1011.0" layoutY="618.0" mnemonicParsing="false" onAction="#Go_To_Create_Account" prefHeight="48.0" prefWidth="196.0" text="Accept the curse" textAlignment="CENTER">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Sign_In_Button" layoutX="615.0" layoutY="564.0" mnemonicParsing="false" onAction="#Sign_In" text="Sign in">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="Title_Screen_Error_Message" layoutX="583.0" layoutY="457.0" opacity="0.0" text="Don't enter that" textFill="#cf0000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

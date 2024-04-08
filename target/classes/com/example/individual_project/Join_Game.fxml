@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.individual_project.HelloController">
+   <children>
+      <Label layoutX="439.0" layoutY="56.0" text="Werewolf" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="56.0">
+         <font>
+            <Font name="Matura MT Script Capitals" size="87.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Join_Game_Code" layoutX="508.0" layoutY="322.0" prefHeight="25.0" prefWidth="366.0" />
+      <Label layoutX="387.0" layoutY="319.0" text="Game Code" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Go_To_Host_Game_Button" layoutX="596.0" layoutY="618.0" mnemonicParsing="false" onAction="#Go_To_Host_Game" prefHeight="48.0" prefWidth="90.0" text="Host" textAlignment="CENTER">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Join_Game_Button" layoutX="275.0" layoutY="618.0" mnemonicParsing="false" onAction="#Join_Game" text="Play">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Sign_Out_Button" layoutX="928.0" layoutY="618.0" mnemonicParsing="false" onAction="#Sign_Out" text="Sign_Out">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="528.0" layoutY="194.0" text="Join Game" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="43.0" />
+         </font>
+      </Label>
+      <Label fx:id="Join_Game_Error_Message" layoutX="557.0" layoutY="482.0" opacity="0.0" text="Don't enter that" textFill="#cf0000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.individual_project.HelloController">
+   <children>
+      <Label layoutX="439.0" layoutY="56.0" text="Werewolf" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="56.0">
+         <font>
+            <Font name="Matura MT Script Capitals" size="87.0" />
+         </font>
+      </Label>
+      <Button fx:id="Start_Game_Button" layoutX="275.0" layoutY="618.0" mnemonicParsing="false" onAction="#Start_Game" text="Start">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Host_Game_Back_Button" layoutX="928.0" layoutY="618.0" mnemonicParsing="false" onAction="#Host_Game_Back" text="Back">
+         <font>
+            <Font name="Vivaldi Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="528.0" layoutY="194.0" text="Host Game" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="43.0" />
+         </font>
+      </Label>
+      <Label fx:id="Game_Code" layoutX="550.0" layoutY="275.0" text="AAAAAA" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="101.0" text="Player 1:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="157.0" text="Player 2:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="213.0" text="Player 3:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="267.0" text="Player 4:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="319.0" text="Player 5:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="375.0" text="Player 6:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="431.0" text="Player 7:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="485.0" text="Player 8:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="342.0" text="Player 9:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="398.0" text="Player 10:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="454.0" text="Player 11:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="508.0" text="Player 12:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="899.0" layoutY="101.0" text="Player 13:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="899.0" layoutY="157.0" text="Player 14:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="899.0" layoutY="213.0" text="Player 15:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="899.0" layoutY="267.0" text="Player 16:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="898.0" layoutY="315.0" text="Player 17:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="898.0" layoutY="371.0" text="Player 18:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="898.0" layoutY="427.0" text="Player 19:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="898.0" layoutY="481.0" text="Player 20:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player1" layoutX="203.0" layoutY="110.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player2" layoutX="203.0" layoutY="168.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player3" layoutX="203.0" layoutY="224.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player4" layoutX="206.0" layoutY="281.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player5" layoutX="203.0" layoutY="334.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player6" layoutX="203.0" layoutY="387.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player7" layoutX="206.0" layoutY="442.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player8" layoutX="206.0" layoutY="498.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player9" layoutX="626.0" layoutY="356.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player10" layoutX="640.0" layoutY="405.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player11" layoutX="634.0" layoutY="461.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player12" layoutX="634.0" layoutY="515.0" text="_______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player13" layoutX="1059.0" layoutY="115.0" text="______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player14" layoutX="1059.0" layoutY="168.0" text="______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player15" layoutX="1059.0" layoutY="224.0" text="______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player16" layoutX="1059.0" layoutY="281.0" text="______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player17" layoutX="1059.0" layoutY="326.0" text="______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player18" layoutX="1059.0" layoutY="387.0" text="______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player19" layoutX="1059.0" layoutY="438.0" text="______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="Player20" layoutX="1067.0" layoutY="498.0" text="______________" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" text="Optional Roles:" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="408.0" layoutY="12.0" text="Biomancer:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="Biomancer_There" layoutX="604.0" layoutY="48.0" mnemonicParsing="false" />
+      <Label layoutX="640.0" layoutY="11.0" text="Vampire:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="Vampire_There" layoutX="810.0" layoutY="43.0" mnemonicParsing="false" />
+      <Label layoutX="865.0" layoutY="10.0" text="Inquisitor:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="36.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="Inquisitor_There" layoutX="1059.0" layoutY="43.0" mnemonicParsing="false" />
+   </children>
+</AnchorPane>

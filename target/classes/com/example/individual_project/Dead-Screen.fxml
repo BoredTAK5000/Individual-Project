@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #cc0000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.individual_project.HelloController">
+   <children>
+      <Label layoutX="439.0" layoutY="123.0" text="Werewolf" textAlignment="CENTER">
+         <font>
+            <Font name="Matura MT Script Capitals" size="87.0" />
+         </font>
+      </Label>
+      <Label layoutX="507.0" layoutY="378.0" text="YOU ARE DEAD">
+         <font>
+            <Font name="Shadows Into Light" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="602.0" layoutY="590.0" mnemonicParsing="false" onAction="#Quit" text="Quit">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

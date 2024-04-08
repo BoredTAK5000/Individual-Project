@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.individual_project.HelloController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1195.0" layoutX="119.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Screens/Villager.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="449.0" layoutY="66.0" text="Werewolf" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Matura MT Script Capitals" size="87.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="14.0" text="Role: Villager" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="42.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button1" layoutX="305.0" layoutY="291.0" mnemonicParsing="false" textFill="#ff7700">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="Villager_Day_Vote" />
+         </toggleGroup>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username1" layoutX="148.0" layoutY="271.0" text="Username1" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button2" layoutX="305.0" layoutY="346.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username2" layoutX="148.0" layoutY="325.0" text="Username2" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button3" layoutX="305.0" layoutY="401.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username3" layoutX="148.0" layoutY="380.0" text="Username3" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button4" layoutX="305.0" layoutY="449.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username4" layoutX="148.0" layoutY="433.0" text="Username4" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button5" layoutX="305.0" layoutY="498.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username5" layoutX="148.0" layoutY="482.0" text="Username5" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button6" layoutX="563.0" layoutY="291.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username6" layoutX="406.0" layoutY="271.0" text="Username6" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button7" layoutX="563.0" layoutY="346.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username7" layoutX="406.0" layoutY="330.0" text="Username7" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button8" layoutX="563.0" layoutY="401.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username8" layoutX="406.0" layoutY="380.0" text="Username8" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button9" layoutX="563.0" layoutY="449.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username9" layoutX="406.0" layoutY="433.0" text="Username9" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button10" layoutX="563.0" layoutY="498.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username10" layoutX="390.0" layoutY="482.0" text="Username10" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button11" layoutX="865.0" layoutY="288.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username11" layoutX="693.0" layoutY="273.0" text="Username11" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button12" layoutX="866.0" layoutY="344.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username12" layoutX="693.0" layoutY="328.0" text="Username12" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button13" layoutX="867.0" layoutY="401.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username13" layoutX="693.0" layoutY="383.0" text="Username13" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button14" layoutX="867.0" layoutY="447.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username14" layoutX="693.0" layoutY="431.0" text="Username14" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button15" layoutX="867.0" layoutY="496.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username15" layoutX="693.0" layoutY="480.0" text="Username15" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button16" layoutX="1127.0" layoutY="293.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username16" layoutX="947.0" layoutY="271.0" text="Username16" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button17" layoutX="1127.0" layoutY="352.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username17" layoutX="947.0" layoutY="330.0" text="Username17" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button18" layoutX="1127.0" layoutY="403.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username18" layoutX="947.0" layoutY="387.0" text="Username18" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button19" layoutX="1127.0" layoutY="449.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username19" layoutX="947.0" layoutY="433.0" text="Username19" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Villager_Day_Button20" layoutX="1127.0" layoutY="498.0" mnemonicParsing="false" textFill="#ff7700" toggleGroup="$Villager_Day_Vote">
+         <font>
+            <Font name="Vivaldi Italic" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="Villager_Day_Voting_Screen_Username20" layoutX="947.0" layoutY="482.0" text="Username20" textFill="WHITE">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="599.0" layoutY="644.0" mnemonicParsing="false" onAction="#Villager_Day_Vote" text="Vote">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="Villager_Day_Error_Message" layoutX="545.0" layoutY="572.0" opacity="0.0" text="Vote for someone" textFill="#cf0000">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

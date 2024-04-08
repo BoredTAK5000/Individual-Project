@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.individual_project.HelloController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1195.0" layoutX="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Screens/Inquisitor.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="439.0" layoutY="14.0" text="Werewolf" textAlignment="CENTER" textFill="#f1c232">
+         <font>
+            <Font name="Matura MT Script Capitals" size="87.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="166.0" text="Please select the subject of your investigation:" textFill="#f1c232">
+         <font>
+            <Font name="Vivaldi Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="14.0" text="Role: Inquisitor" textFill="#f1c232">
+         <font>
+            <Font name="Vivaldi Italic" size="42.0" />
+         </font>
+      </Label>
+      <Button layoutX="232.0" layoutY="256.0" mnemonicParsing="false" onAction="#Night_Creature1_Selected" text="Night Creature1">
+         <font>
+            <Font name="Vivaldi Italic" size="48.0" />
+         </font>
+      </Button>
+      <Button layoutX="699.0" layoutY="256.0" mnemonicParsing="false" onAction="#Night_Creature2_Selected" text="Night Creature2">
+         <font>
+            <Font name="Vivaldi Italic" size="48.0" />
+         </font>
+      </Button>
+      <Button layoutX="232.0" layoutY="400.0" mnemonicParsing="false" onAction="#Night_Creature3_Selected" text="Night Creature3">
+         <font>
+            <Font name="Vivaldi Italic" size="48.0" />
+         </font>
+      </Button>
+      <Button layoutX="699.0" layoutY="400.0" mnemonicParsing="false" onAction="#Night_Creature4_Selected" text="Night Creature4">
+         <font>
+            <Font name="Vivaldi Italic" size="48.0" />
+         </font>
+      </Button>
+      <Button layoutX="469.0" layoutY="545.0" mnemonicParsing="false" onAction="#Night_Creature5_Selected" text="Night Creature5">
+         <font>
+            <Font name="Vivaldi Italic" size="48.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
